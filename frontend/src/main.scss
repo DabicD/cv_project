@@ -1,1 +1,16 @@
+//== Variables
+@import './partials/variables';
+
+//== Import bootstrap files
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+//== Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+//== Global Styles
+@import './partials/global';
+
+//== Components
 @import './components/**/_*.s[ca]ss';
