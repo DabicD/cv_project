@@ -1,12 +1,31 @@
+//== Fonts
+$squada: 'Squada One', sans-serif;
+$audiowide: 'Audiowide', sans-serif;
+
 //== Colors
 $white: #ffffff;
 $black: #000000;
+$maritime-blue: #262742;
+$celtic-blue: #3168d8;
+$french-sky-blue: #7CA0F1;
+$violet: #7900FF;
+$lavender-indigo: #b069ff;
 
 //== Border radius
 $br-small: 5px;
 $br-medium: 15px;
 $br-big: 30px;
 $br-full: 50%;
+
+//== Transition
+$tr-fast: 0.2s;
+$tr-medium: 0.5s;
+$tr-slow: 1s;
+
+//== backgrounds
+$mobile-header-gradient: radial-gradient(circle at top, rgba(255,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%, rgba(114,9,121,0.4) 33%, rgba(98,0,255,0.4) 100%);
+$dekstop-header-gradient: radial-gradient(circle at bottom left, rgba(255,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%, rgba(114,9,121,0.4) 33%, rgba(98,0,255,0.4) 100%);
+$header-backdrop: brightness(0.4) blur(2px);
 
 //== Customization
 $grid-breakpoints: (
