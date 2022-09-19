@@ -1,0 +1,73 @@
+.dd-logo {
+  width: fit-content;
+  transition: $tr-medium;
+  margin-bottom: 0;
+  
+  &__link{
+    display: flex;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: font-size $tr-medium;
+    text-decoration: none;
+  }
+  &__image {
+    object-fit: contain;
+    height: 4em;
+    width: 4em;
+    margin-top: 0.4em;
+  }
+  &__text {
+    position: relative;
+    display: inline-block;
+  }
+  &__span {
+    display: block;
+    font-family: $audiowide;
+
+    &:nth-child(1) {
+      font-size: 2em;
+    }
+    &:nth-child(2) {
+      font-size: 2.6em;
+      font-weight: 700;
+      margin-top: -0.4em;
+    }
+    &:nth-child(3) {
+      width: fit-content;
+      position: relative;
+      padding: 0.3rem;
+      font-size: 1rem;
+      font-weight: 700;
+      border: 0.15rem solid $white;
+      position: absolute;
+      right: 0;
+
+      @include media-breakpoint-up(lg){
+        left: 75%;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        z-index: -1;
+        left: -20%;
+        width: 20%;
+        height: 100%;
+        border-bottom: 0.4rem solid $white;
+        border-left: 0.2rem solid $white;
+        border-radius: $br-full;
+        transform: skewX(45deg);
+
+        @include media-breakpoint-up(lg){
+          border-bottom: 0.15rem solid $white;
+          border-left: 0.15rem solid $white;
+          border-radius: 0;
+          height: 130%;
+          left: -25%;
+          width: 15%;
+        }
+      }
+    }
+  }
+}
