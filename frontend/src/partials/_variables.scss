@@ -22,6 +22,11 @@ $tr-fast: 0.2s;
 $tr-medium: 0.5s;
 $tr-slow: 1s;
 
+//== backgrounds
+$mobile-header-gradient: radial-gradient(circle at top, rgba(255,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%, rgba(114,9,121,0.4) 33%, rgba(98,0,255,0.4) 100%);
+$dekstop-header-gradient: radial-gradient(circle at bottom left, rgba(255,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%, rgba(114,9,121,0.4) 33%, rgba(98,0,255,0.4) 100%);
+$header-backdrop: brightness(0.4) blur(2px);
+
 //== Customization
 $grid-breakpoints: (
     xs: 0,
