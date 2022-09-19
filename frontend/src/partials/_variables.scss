@@ -6,12 +6,21 @@ $audiowide: 'Audiowide', sans-serif;
 $white: #ffffff;
 $black: #000000;
 $maritime-blue: #262742;
+$celtic-blue: #3168d8;
+$french-sky-blue: #7CA0F1;
+$violet: #7900FF;
+$lavender-indigo: #b069ff;
 
 //== Border radius
 $br-small: 5px;
 $br-medium: 15px;
 $br-big: 30px;
 $br-full: 50%;
+
+//== Transition
+$tr-fast: 0.2s;
+$tr-medium: 0.5s;
+$tr-slow: 1s;
 
 //== Customization
 $grid-breakpoints: (
