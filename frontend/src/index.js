@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import LandingPage from './pages/landing-page/LandingPage';
+
 function App() {
-  return (
-    <>
-      <h1>Hi</h1>
-    </>
-  );
+  return <LandingPage />;
 }
 
 const root = ReactDOM.createRoot(document.getElementById('app'));
