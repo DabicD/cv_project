@@ -1,0 +1,25 @@
+.dd-technologies {
+  &__title {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 2.5rem;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+    }
+    span {
+      font-family: 'audiowide';
+      height: 100%;
+    }
+  }
+  &__tab-title { 
+    font-size: 1.7rem;
+    cursor: pointer;
+    
+    @include media-breakpoint-up(sm) {
+      font-size: 2rem;
+    }
+  }
+}

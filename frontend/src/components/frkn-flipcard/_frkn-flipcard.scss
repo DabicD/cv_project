@@ -1,0 +1,22 @@
+.dd-frknflipcard {
+  transform-style: preserve-3d;
+  transition: $tr-medium;
+  cursor: pointer;
+  
+  &--flip {
+    transform: rotateY(180deg);
+  }
+  &__section {
+    position: relative;
+    backface-visibility: hidden;
+    
+    &--back {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: rotateY(180deg) translateZ(.1px);
+    }
+  }
+}
