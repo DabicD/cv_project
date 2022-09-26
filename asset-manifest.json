@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.js": "/cv_project/static/js/main.4f6266a3.js",
-    "index.html": "/cv_project/index.html",
-    "main.4f6266a3.js.map": "/cv_project/static/js/main.4f6266a3.js.map"
+    "main.js": "/personal/static/js/main.1c53184f.js",
+    "static/media/daniel_photo.png": "/personal/static/media/daniel_photo.a9ca2fea2bfa0ccada1d.png",
+    "static/media/express.png": "/personal/static/media/express.08993f4bcb50dc5e6cc6.png",
+    "static/media/browserstack.png": "/personal/static/media/browserstack.4679eddaf7252a771432.png",
+    "static/media/jwt.svg": "/personal/static/media/jwt.134d3890c79a7c04e9df.svg",
+    "static/media/express2.svg": "/personal/static/media/express2.493a0dd08d8d77a341e2.svg",
+    "index.html": "/personal/index.html",
+    "static/media/linkedin.svg": "/personal/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "static/media/triangles.svg": "/personal/static/media/triangles.0259be36c5ec202fb93a4bedcf3d8b68.svg",
+    "static/media/phone.svg": "/personal/static/media/phone.a6541346bd67ac829c0c7c527ee66d1e.svg",
+    "static/media/email.svg": "/personal/static/media/email.6ac62bfa03e2a985535678e82ffed575.svg",
+    "main.1c53184f.js.map": "/personal/static/js/main.1c53184f.js.map"
   },
   "entrypoints": [
-    "static/js/main.4f6266a3.js"
+    "static/js/main.1c53184f.js"
   ]
 }
