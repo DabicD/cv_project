@@ -45,12 +45,10 @@ const Intro = ({
                   <section className="dd-intro__container">
                     <img src={danielPhoto} alt="author photography" className="dd-intro__image"/>
                     <p className="dd-intro__text">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                      It has survived not only five centuries, but also the leap into electronic typesetting,
-                      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                      and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      Engineer graduated in Applied Informatics from the University in Lodz.
+                      Have very solid fundamental knowledge of IT. During studies I was coding in C/C++14, python, java and android...
+                      but finally decided to develop my passion in Web development. My commercial experience has been started in july 2021.
+                      My native language is Polish, but don't hesitate to contact me also in English. (B2)
                     </p>
                     <section className="dd-intro__contact">
                       <h3 className="dd-intro__contact-title">Contact</h3>
