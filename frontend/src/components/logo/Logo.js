@@ -8,7 +8,7 @@ const Logo = ({
   return (
     <h1 className="dd-logo">
       <a className="dd-logo__link" href={href} onClick={onClick}>
-        <img src="/assets/logo.webp" alt="logo" className="dd-logo__image"/>
+        <img src="./assets/logo.webp" alt="logo" className="dd-logo__image"/>
         <span className="dd-logo__text">
           <FrknSpan
             type={spanType.neon.sky}
