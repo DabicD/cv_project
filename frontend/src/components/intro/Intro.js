@@ -52,13 +52,30 @@ const Intro = ({
                     </p>
                     <section className="dd-intro__contact">
                       <h3 className="dd-intro__contact-title">Contact</h3>
-                      <a href="https://www.linkedin.com/in/danieldabic/" className="dd-intro__contact-link" data-tooltip="LinkedIn" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.linkedin.com/in/danieldabic/"
+                        className="dd-intro__contact-link"
+                        data-tooltip="LinkedIn"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="linkedin"
+                      >
                         <LinkedinIcon/>
                       </a>
-                      <a href="mailto:danieldabic@wp.pl" className="dd-intro__contact-link" data-tooltip="E-mail (not preferred)">
+                      <a
+                        href="mailto:danieldabic@wp.pl"
+                        className="dd-intro__contact-link"
+                        data-tooltip="E-mail (not preferred)"
+                        aria-label="email"
+                      >
                         <EmailIcon/>
                       </a>
-                      <a href="tel: +48 796 988 221" className="dd-intro__contact-link" data-tooltip="Phone">
+                      <a
+                        href="tel: +48 796 988 221"
+                        className="dd-intro__contact-link"
+                        data-tooltip="Phone"
+                        aria-label="phone"
+                      >
                         <PhoneIcon/>
                       </a>
                     </section>
