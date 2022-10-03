@@ -1,6 +1,7 @@
 .dd-frknspan {
   position: relative;
-
+  font-family: inherit;
+  
   &--neon {
     $neon: &;
     color: transparent;
