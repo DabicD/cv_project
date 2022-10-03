@@ -11675,6 +11675,7 @@ body {
 
 .dd-frknspan {
   position: relative;
+  font-family: inherit;
 }
 .dd-frknspan--neon, .dd-frknspan--neon-white, .dd-frknspan--neon-lavende, .dd-frknspan--neon-sky {
   color: transparent;
@@ -12043,6 +12044,67 @@ body {
     left: -25%;
     width: 15%;
   }
+}
+
+.dd-skills__title {
+  font-size: 2.5rem;
+  font-family: "Audiowide", sans-serif;
+  margin-bottom: 1rem;
+}
+@media (min-width: 960px) {
+  .dd-skills__title {
+    font-size: 3rem;
+  }
+}
+.dd-skills__article {
+  padding-right: 2rem;
+}
+@media (min-width: 960px) {
+  .dd-skills__article {
+    width: 35%;
+  }
+}
+.dd-skills__sub-title {
+  position: relative;
+  font-size: 2rem;
+  color: #000000;
+  background-color: #ffc90e;
+  text-align: center;
+  width: 90%;
+  padding: 0.2rem 0;
+  box-shadow: inset -0.5rem 0 0.5rem -0.2rem #000000;
+}
+.dd-skills__sub-title:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2rem;
+  top: 0;
+  right: -4rem;
+  background-color: #ffc90e;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 80% 25%, 100% 50%, 80% 75%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 80% 25%, 100% 50%, 80% 75%, 100% 100%, 0% 100%);
+  box-shadow: inset 0.5rem 0 0.5rem -0.2rem #000000;
+}
+.dd-skills__list {
+  margin-top: 1rem;
+}
+.dd-skills__list-item {
+  font-size: 1.4rem;
+  list-style: none;
+}
+.dd-skills__list-item::marker {
+  content: "> ";
+  color: #ffc90e;
+}
+.dd-skills .swiper {
+  padding: 0 2rem 2rem 2rem;
+}
+.dd-skills .swiper-slide:first-child {
+  padding-left: 0.6rem;
+}
+.dd-skills .swiper-slide:last-child {
+  padding-right: 0.6rem;
 }
 
 .dd-techcard {

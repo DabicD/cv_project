@@ -1,0 +1,63 @@
+.dd-skills {
+  &__title {
+    font-size: 2.5rem;
+    font-family: $audiowide;
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+    }
+  }
+  &__article {
+    padding-right: 2rem;
+
+    @include media-breakpoint-up(lg) {
+      width: 35%;
+    }
+  }
+  &__sub-title {
+    position: relative;
+    font-size: 2rem;
+    color: $black;
+    background-color: $toucan-gentleman;
+    text-align: center;
+    width: 90%;
+    padding: 0.2rem 0;
+    box-shadow: inset -0.5rem 0 0.5rem -0.2rem $black;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2rem;
+      top: 0;
+      right: -4rem;
+      background-color: $toucan-gentleman;
+      clip-path: polygon(0% 0%, 100% 0%, 80% 25%, 100% 50%, 80% 75%, 100% 100%, 0% 100%);
+      box-shadow: inset 0.5rem 0 0.5rem -0.2rem $black;
+    }
+  }
+  &__list {
+    margin-top: 1rem;
+  }
+  &__list-item {
+    font-size: 1.4rem;
+    list-style: none;
+
+    &::marker {
+      content: '> ';
+      color: $toucan-gentleman;
+    }
+  }
+  .swiper {
+    padding: 0 2rem 2rem 2rem;
+  }
+  .swiper-slide {
+    &:first-child {
+      padding-left: 0.6rem;
+    }
+    &:last-child {
+      padding-right: 0.6rem;
+    }
+  }
+}
