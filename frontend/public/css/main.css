@@ -11621,6 +11621,20 @@ body {
   min-height: 100vh;
 }
 
+.dd-footer {
+  border-top: 2px solid #000000;
+  padding: 0.5rem 1rem;
+  box-shadow: 0px 15px 15px 15px #898989;
+  background: #140039;
+}
+.dd-footer__copyright {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
 .dd-frknburger--floatinglabel {
   background-color: transparent;
   border: none;
