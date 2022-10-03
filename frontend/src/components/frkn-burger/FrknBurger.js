@@ -6,6 +6,7 @@ const FrknBurger = forwardRef(({
   color,
   size,
   onClick,
+  ariaLabel
 }, ref) => {
   const burgerHTML = () => {
     switch(type) {
@@ -16,6 +17,7 @@ const FrknBurger = forwardRef(({
             onClick={onClick}
             style={size ? {width: size, height: size} : {}}
             ref={ref}
+            aria-label={ariaLabel ? ariaLabel : null}
           >
             <div style={color ? {backgroundColor: color} : {}}></div>
             <div style={color ? {backgroundColor: color} : {}}></div>
@@ -35,7 +37,8 @@ FrknBurger.propTypes = {
   type: PropTypes.string,
   color: PropTypes.string,
   size: PropTypes.string,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  ariaLabel: PropTypes.string
 };
 
 export const burgerType = {

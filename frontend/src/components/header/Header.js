@@ -74,6 +74,7 @@ const Header = () => {
                   type={burgerType.floatingLabel}
                   onClick={handleClick.toggleHeader}
                   ref={burgerRef}
+                  ariaLabel="menu toggle"
                 />
               </div>
             </div>

@@ -12,8 +12,8 @@ const LandingPage = () => {
         <Intro id="aboutme" className="pt-10"/>
         <Skills id="skills" className="pt-10"/>
         <Technologies id="technologies" className="pt-10"/>
-        <Footer id="footer" className="mt-10"/>
       </main>
+      <Footer id="footer" className="mt-10"/>
     </>
   );
 };
