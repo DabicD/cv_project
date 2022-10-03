@@ -25,7 +25,7 @@ const TechCard = ({
   const IconImg = () => (
     <img
       loading="lazy"
-      src={`/assets/${icon.path}`}
+      src={`./assets/${icon.path}`}
       alt={`${name} icon`}
       className="dd-techcard__icon"
       author={icon.author ? icon.author : null}
