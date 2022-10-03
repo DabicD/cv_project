@@ -6,7 +6,6 @@ import FrknSpan, { spanType } from '../frkn-span/FrknSpan';
 import { ReactComponent as EmailIcon } from '../../assets/icons/email.svg';
 import { ReactComponent as LinkedinIcon } from '../../assets/icons/linkedin.svg';
 import { ReactComponent as PhoneIcon } from '../../assets/icons/phone.svg';
-import danielPhoto from '../../assets/img/daniel_photo.png';
 
 const titleData = 'ABOUT ME';
 
@@ -43,7 +42,7 @@ const Intro = ({
                     <FrknSpan type={spanType.neon.sky}>{title}</FrknSpan>
                   </h2>
                   <section className="dd-intro__container">
-                    <img src={danielPhoto} alt="author photography" className="dd-intro__image"/>
+                    <img src="/assets/daniel_photo.webp" alt="author photography" className="dd-intro__image"/>
                     <p className="dd-intro__text">
                       Engineer graduated in Applied Informatics from the University in Lodz.
                       Have very solid fundamental knowledge of IT. During studies I was coding in C/C++14, python, java and android...

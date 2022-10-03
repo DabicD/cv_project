@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import FrknSpan, { spanType } from '../frkn-span/FrknSpan';
-import logo from '../../assets/img/logo.png';
 
 const Logo = ({
   onClick,
@@ -9,7 +8,7 @@ const Logo = ({
   return (
     <h1 className="dd-logo">
       <a className="dd-logo__link" href={href} onClick={onClick}>
-        <img src={logo} alt="logo" className="dd-logo__image"/>
+        <img src="/assets/logo.webp" alt="logo" className="dd-logo__image"/>
         <span className="dd-logo__text">
           <FrknSpan
             type={spanType.neon.sky}
