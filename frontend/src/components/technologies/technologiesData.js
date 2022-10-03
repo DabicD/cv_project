@@ -2,7 +2,7 @@
 const data = [{
   name: 'HTML',
   icon: {
-    path: 'html.png',
+    path: 'html.webp',
     author: 'https://www.iconfinder.com/pixelbazaar',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl'
   },
@@ -13,7 +13,7 @@ const data = [{
 },{
   name: 'CSS',
   icon: {
-    path: 'css.png',
+    path: 'css.webp',
     author: 'https://www.iconfinder.com/pixelbazaar',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl'
   },
@@ -24,7 +24,7 @@ const data = [{
 },{
   name: 'JS',
   icon: {
-    path: 'js.png',
+    path: 'js.webp',
     author: 'https://www.iconfinder.com/Erik_Rgnr',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl'
   },
@@ -35,7 +35,7 @@ const data = [{
 },{
   name: 'jQuery',
   icon: {
-    path: 'jquery.png',
+    path: 'jquery.webp',
     license: 'MIT'
   },
   description: {
@@ -45,7 +45,7 @@ const data = [{
 },{
   name: 'React',
   icon: {
-    path: 'react.png',
+    path: 'react.webp',
     author: 'https://www.iconfinder.com/samatodedara',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl'
   },
@@ -56,7 +56,7 @@ const data = [{
 },{
   name: 'Node',
   icon: {
-    path: 'node.png',
+    path: 'node.webp',
     author: 'https://www.iconfinder.com/iconsets/font-awesome-brands-vol-2',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl',
     extraStyle: {
@@ -70,7 +70,7 @@ const data = [{
 },{
   name: 'NPM',
   icon: {
-    path: 'npm.png',
+    path: 'npm.webp',
     license: 'MIT',
     extraStyle: {
       marginTop: '1.5rem'
@@ -83,7 +83,7 @@ const data = [{
 },{
   name: 'Express',
   icon: {
-    path: 'express.png',
+    path: 'express.webp',
     extraStyle: {
       width: '14rem',
       marginTop: '2rem'
@@ -96,7 +96,7 @@ const data = [{
 },{
   name: 'SQL',
   icon: {
-    path: 'sql.png',
+    path: 'sql.webp',
     author: 'https://www.iconfinder.com/Lexter',
     license: 'Free for commercial use (include link to author website)'
   },
@@ -107,7 +107,7 @@ const data = [{
 },{
   name: 'noSQL',
   icon: {
-    path: 'database.png',
+    path: 'database.webp',
     author: 'https://www.iconfinder.com/iconsets/font-awesome-solid-vol-1',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl',
     extraStyle: {
@@ -122,7 +122,7 @@ const data = [{
 },{
   name: 'PostMan',
   icon: {
-    path: 'postman.png',
+    path: 'postman.webp',
     author: 'https://www.iconfinder.com/iconfinder',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl',
     extraStyle: {
@@ -137,7 +137,7 @@ const data = [{
 },{
   name: 'Browser Stack',
   icon: {
-    path: 'browserstack.png',
+    path: 'browserstack.webp',
     author: 'https://freeicons.io/profile/3',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl'
   },
@@ -148,7 +148,7 @@ const data = [{
 },{
   name: 'GIT',
   icon: {
-    path: 'git.png',
+    path: 'git.webp',
     author: 'Free for commercial use',
     extraStyle: {
       marginTop: '1rem'
@@ -175,7 +175,7 @@ const data = [{
 },{
   name: 'Sass',
   icon: {
-    path: 'sass.png',
+    path: 'sass.webp',
     author: 'https://www.iconfinder.com/Flatart',
     license: 'Free for commercial use (include link to author website)'
   },
@@ -186,7 +186,7 @@ const data = [{
 },{
   name: 'Bootstrap',
   icon: {
-    path: 'bootstrap.png',
+    path: 'bootstrap.webp',
     author: 'https://www.iconfinder.com/iconsets/font-awesome-brands-vol-1',
     license: 'https://creativecommons.org/licenses/by/3.0/deed.pl'
   },
@@ -197,7 +197,7 @@ const data = [{
 },{
   name: 'Jira',
   icon: {
-    path: 'jira.png',
+    path: 'jira.webp',
     author: 'https://www.iconfinder.com/Flatart',
     license: 'Free for commercial use (include link to author website)'
   },
@@ -208,7 +208,7 @@ const data = [{
 },{
   name: 'Redux',
   icon: {
-    path: 'redux.png',
+    path: 'redux.webp',
     license: 'MIT'
   },
   description: {
