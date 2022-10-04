@@ -23,9 +23,13 @@ function buildStyles() {
 }
 
 function changeImgFormat() {
-  console.log('changeImgFormat');
   return gulp.src('./src/assets/**/*.{jpg,png}')
   .pipe(webp())
+  .pipe(rename({dirname:''}))
+  .pipe(gulp.dest('./public/assets'))
+}
+function copySVGToPublic() {
+  return gulp.src('./src/assets/**/*.svg')
   .pipe(rename({dirname:''}))
   .pipe(gulp.dest('./public/assets'))
 }
@@ -33,4 +37,5 @@ function changeImgFormat() {
 function watch() {
   gulp.watch('./src/**/*.scss', buildStyles);
   gulp.watch('./src/assets/**/*.{jpg,png}', changeImgFormat);
+  gulp.watch('./src/assets/**/*.svg', copySVGToPublic);
 }
